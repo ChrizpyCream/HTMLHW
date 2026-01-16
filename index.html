@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Runner Life</title>
+
+    <!-- link the .css file-->
+    <link rel="stylesheet" href="style.css" />
+
+    
+    <style>
+      body {
+        background-color: white;
+        font-family: "Zalando Sans Expanded", sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: navajowhite;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+      
+      #main-title {
+        font-size: 26px;
+        margin: 0;
+        color: darkred;
+      }
+
+      nav {
+        background-color: lightgoldenrodyellow;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      /* Attribute  */
+      nav a[href] {
+        color: green;
+        margin: 0 15px;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      section {
+        background-color: white;
+        border: 2px solid grey;
+        padding: 15px;
+        margin: 20px;
+        width: 90%;
+      }
+
+      h2 {
+        color: lightblue;
+        font-size: 26px;
+        margin-bottom: 10px;
+      }
+
+      article p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      blockquote {
+        border-left: 4px solid blueviolet;
+        padding-left: 10px;
+        margin: 15px 0;
+        font-style: italic;
+        background-color: goldenrod;
+      }
+
+      aside {
+        background-color: plum;
+        border: 1px solid rebeccapurple;
+        padding: 10px;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!--incline css-->
+    <header style="height: 120px;">
+      <h1 id="main-title">Runner Life</h1>
+      <p><em>going for the miles, mindset and motivation</em></p>
+    </header>
+
+    <nav>
+      <a href="#training">Training</a>
+      <a href="#nutrition">Nutrition</a>
+      <a href="#mindset">Mindset</a>
+    </nav>
+    
+    <main>
+      <!-- Class selector -->
+      <section id="training" class="content-section">
+        <header>
+          <h2>Training thoughts</h2>
+        </header>
+        <img src="images/R.jpg" alt="runner"/>
+        <article>
+          <p>
+            Distance running is about consistency and patience.
+            <mark>every mile is important</mark>, even the lower paced ones.
+          </p>
+          <blockquote>
+            "run smart be patient with tempo workouts and not go out too fast,
+            practice good habits"
+          </blockquote>
+          
+        </article>
+        <aside>
+          <p><strong>Running tip:</strong> easy days should feel comfortable</p>
+        </aside>
+      </section>
+
+      <!-- selector #2 -->
+      <section id="nutrition" class="content-section form-area">
+        <header>
+          <h2>Runner Nutrition</h2>
+        </header>
+        <article>
+          <p>
+            Fueling properly helps prevent injury and burnout.
+          </p>
+
+          
+          <input type="text" placeholder="Favorite carb" />
+          <br /><br />
+          <input type="email" placeholder="Email for tips" />
+        </article>
+      </section>
+
+      <section id="mindset" class="content-section">
+        <header>
+          <h2>Mental Toughness</h2>
+        </header>
+        <article>
+          <p>
+            The mind gives up before the body. Stay focused, stay disciplined,
+            and trust your training.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <!-- ID selector #2 -->
+    <footer id="page-footer">
+      <p>&copy; Runner Life | Built for runners, by runners</p>
+    </footer>
+  </body>
+</html>

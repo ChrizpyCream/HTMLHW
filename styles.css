@@ -1,0 +1,39 @@
+body {
+  font-family: "Zalando Sans Expanded", sans-serif;
+}
+
+
+.content-section {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/* ID selector */
+#page-footer {
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  height: 60px;
+}
+
+
+input[type="text"] {
+  width: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+.form-area input[type="text"] {
+  background-color: #eaffea;
+}
+
+
+input[type="email"] {
+  width: 220px;
+  padding: 5px;
+  margin: 5px;
+  background-color: #eef4ff;
+}
